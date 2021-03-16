@@ -5,8 +5,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* Utility classes */
-.margin-left{
+section{
     margin-left: 50px;
+    padding: 10px;
+}
+span{
+ margin-top: 10px;
 }
 h3{
     display: inline-block;
@@ -53,17 +57,35 @@ main{
     border:1px solid black;
 }
 /* / "ADD" Section */
-/* New tasks */
-.checkmark{
+/* checkmark and crossmark */
+.checkmark , .crossmark{
     font-weight: 900;
-    color: green;
-    border: 1px solid green;
     border-radius: 10px;
 }
-.editorial{
+.checkmark{
+    color: green;
+    border: 1px solid green;
+}
+.crossmark{
+    color: red;
+    border: 1px solid red;
+}
+/* Today */
+.editorial , .q1-goals , .recruiting , .mobile{
     font-size: 10px;
-    background-color: cornflowerblue;
     color: white;
     padding: 5px;
     border-radius: 10px;
+}
+.editorial{
+    background-color: cornflowerblue;
+}
+.q1-goals{
+    background-color: purple;
+}
+.recruiting{
+    background-color: green;
+}
+.mobile{
+    background-color: rgb(247, 192, 91);
 }
