@@ -22,7 +22,7 @@ h1{
 main{
     height: 500px;
     width: 1000px;
-    background-color: lightgrey;
+    background-color: rgb(223, 219, 219);
 }
 .content{
     margin-left: 20px;
@@ -54,3 +54,16 @@ main{
 }
 /* / "ADD" Section */
 /* New tasks */
+.checkmark{
+    font-weight: 900;
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.editorial{
+    font-size: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
