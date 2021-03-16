@@ -16,10 +16,9 @@ h3{
     display: inline-block;
     }
 /* /Utility classes */
-}
 header{
     height: 100px;
-    line-height: 100px
+    line-height: 100px;
 }
 img{
     vertical-align: middle;
@@ -30,7 +29,6 @@ h1{
 }
 main{
     height: 600px;
-    width: 1000px;
     background-color: rgb(226, 225, 225);
 }
 .content{
