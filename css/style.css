@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Utility classes */
+.margin-left{
+    margin-left: 50px;
+}
+h3{
+    display: inline-block;
+    }
+/* /Utility classes */
+}
+header{
+    height: 80px;
+}
+h1{
+    display: inline-block;
+}
+main{
+    height: 500px;
+    width: 1000px;
+    background-color: lightgrey;
+}
+.content{
+    margin-left: 20px;
+}
+.container{
+    position: relative;
+    top: 20px;
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+}
+/* "ADD" Section */
+#add{
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+}
+#add-task , #add-section{
+    border-radius: 5px;
+    padding: 5px;
+}
+#add-task{
+    color: white;
+    background-color: cornflowerblue;
+}
+#add-section{
+    color: gray;
+    border:1px solid black;
+}
+/* / "ADD" Section */
+/* New tasks */
