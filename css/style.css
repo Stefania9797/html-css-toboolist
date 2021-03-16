@@ -19,17 +19,25 @@ h3{
 }
 header{
     height: 100px;
+    line-height: 100px
+}
+img{
+    vertical-align: middle;
 }
 h1{
+    vertical-align: middle;
     display: inline-block;
 }
 main{
-    height: 500px;
+    height: 600px;
     width: 1000px;
-    background-color: rgb(223, 219, 219);
+    background-color: rgb(226, 225, 225);
 }
 .content{
     margin-left: 20px;
+}
+.row{
+    padding: 5px;
 }
 .container{
     position: relative;
@@ -37,7 +45,7 @@ main{
     background-color: white;
     margin: auto;
     width: 800px;
-    height: 400px;
+    height: 500px;
 }
 /* "ADD" Section */
 #add{
@@ -59,7 +67,7 @@ main{
 /* checkmark and crossmark */
 .checkmark , .crossmark{
     font-weight: 900;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .checkmark{
     color: green;
