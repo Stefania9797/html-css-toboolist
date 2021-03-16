@@ -10,7 +10,7 @@ section{
     padding: 10px;
 }
 span{
- margin-top: 10px;
+ margin: 5px;
 }
 h3{
     display: inline-block;
@@ -18,7 +18,7 @@ h3{
 /* /Utility classes */
 }
 header{
-    height: 80px;
+    height: 100px;
 }
 h1{
     display: inline-block;
@@ -41,7 +41,6 @@ main{
 }
 /* "ADD" Section */
 #add{
-    border-bottom: 1px solid lightgrey;
     padding: 20px;
 }
 #add-task , #add-section{
@@ -70,8 +69,8 @@ main{
     color: red;
     border: 1px solid red;
 }
-/* Today */
-.editorial , .q1-goals , .recruiting , .mobile{
+/* Today and upcoming */
+.editorial , .q1-goals , .recruiting , .mobile , .website , .sales{
     font-size: 10px;
     color: white;
     padding: 5px;
@@ -89,3 +88,10 @@ main{
 .mobile{
     background-color: rgb(247, 192, 91);
 }
+.website{
+    background-color: orchid;
+}
+.sales{
+    background-color: limegreen;
+}
+/* /Today and upcoming */
