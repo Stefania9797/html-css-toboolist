@@ -66,8 +66,9 @@ main{
 /* / "ADD" Section */
 /* checkmark and crossmark */
 .checkmark , .crossmark{
+    padding: 2px;
     font-weight: 900;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .checkmark{
     color: green;
